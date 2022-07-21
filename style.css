@@ -111,6 +111,10 @@ background-repeat:no-repeat;
    
   }
   
+  .form-group > p {
+   display: flex;
+  }
+  
   .submit-buttom{
     width: 100%;
     color: #fff;
@@ -120,8 +124,6 @@ background-repeat:no-repeat;
     background-color: #37af65;
     border: none;
   }
-  
-
-   .form-group > p {
-    display: flex;
-   }
+  .submit-buttom:hover{
+    background-color: #3da264;
+  }
